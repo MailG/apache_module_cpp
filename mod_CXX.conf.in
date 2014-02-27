@@ -1,0 +1,5 @@
+LoadModule CXX_module @@@path@@@/mod_CXX.so
+<Location /CXX>
+	SetHandler cxx
+</Location>
+
